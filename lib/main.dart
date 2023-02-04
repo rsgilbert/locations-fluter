@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:locations/my_homepage.dart';
 
-void main() => runApp(const LocationsApp());
+void main() => runApp(MaterialApp(
+  home: const MyHomepage()));
 
 class LocationsApp extends StatelessWidget {
   const LocationsApp({super.key});
